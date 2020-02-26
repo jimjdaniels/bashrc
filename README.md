@@ -52,27 +52,30 @@ fi
 - alias rmi="docker rmi"
 - alias rmif="docker rmi -f"
 - alias prune="sudo docker system prune"
+- alias rpmx="rpm2cpio \!^ | cpio -idmv"
+
+
 
 /# kubectl command aliases
-alias kubectl="/usr/bin/kubectl"
-alias k="kubectl"
-alias kgd="kubectl get deployments"
-alias kgp="kubectl get pods"
-alias kgs="kubectl get services"
-alias kgr="kubectl get replicasets"
-alias kg="kubectl get"
-alias kgname="kubectl get namespaces"
-alias kgnet="kubectl get networkpolicy"
-alias kdp="kubectl delete pods"
-alias kdd="kubectl delete deployments"
-alias kds="kubectl delete services"
-alias kl="kubectl logs"
-alias kc="kubectl create -f"
-alias ke="kubectl exec -it"
+- alias kubectl="/usr/bin/kubectl"
+- alias k="kubectl"
+- alias kgd="kubectl get deployments"
+- alias kgp="kubectl get pods"
+- alias kgs="kubectl get services"
+- alias kgr="kubectl get replicasets"
+- alias kg="kubectl get"
+- alias kgname="kubectl get namespaces"
+- alias kgnet="kubectl get networkpolicy"
+- alias kdp="kubectl delete pods"
+- alias kdd="kubectl delete deployments"
+- alias kds="kubectl delete services"
+- alias kl="kubectl logs"
+- alias kc="kubectl create -f"
+- alias ke="kubectl exec -it"
 
 /# GO VARIABLES
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
-export GOPROXY=http://goproxy.sas.com:3000
-export GONOSUMDB=*.sas.com
+- export GOPATH=$HOME/go
+- export PATH=$PATH:$GOPATH/bin
+- export GOPROXY=http://goproxy.sas.com:3000
+- export GONOSUMDB=*.sas.com
 
