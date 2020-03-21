@@ -13,8 +13,10 @@
 
 - set -o vi
 
-
+/export CLICOLOR=1;
+/export LSCOLORS=exfxcxdxbxegedabagacad;
 /#export DOCKER_TLS_VERIFY=1
+
 /#export DOCKER_HOST=tcp://10.12.39.205:2376
 
 /#export PATH=$PATH:/opt/kubernetes/platforms/linux/amd64/
