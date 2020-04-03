@@ -41,8 +41,8 @@ fi
 
 # My aliases
 alias c="clear"
-alias l="ls -a"
-alias ll="ls -laT"
+alias l="ls -aG"
+alias ll="ls -laTG"
 alias p3="/usr/bin/python36"
 #alias python="/usr/local/bin/python"
 alias envp3="source envp3/bin/activate"
