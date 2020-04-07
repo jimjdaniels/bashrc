@@ -12,6 +12,9 @@ fi
 
 set -o vi
 
+# focus follows mouse for mac
+defaults write com.apple.Terminal FocusFollowsMouse -bool true
+
 # show colors for dirs in bash
 export CLICOLOR=1;
 export LSCOLORS=exfxcxdxbxegedabagacad;
